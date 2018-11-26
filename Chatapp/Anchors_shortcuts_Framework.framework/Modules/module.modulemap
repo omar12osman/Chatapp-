@@ -1,0 +1,11 @@
+framework module Anchors_shortcuts_Framework {
+  umbrella header "Anchors_shortcuts_Framework.h"
+
+  export *
+  module * { export * }
+}
+
+module Anchors_shortcuts_Framework.Swift {
+    header "Anchors_shortcuts_Framework-Swift.h"
+    requires objc
+}
