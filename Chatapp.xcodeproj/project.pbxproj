@@ -7,8 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45352D6B21C169C1009CCF5C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45352D6A21C169C1009CCF5C /* Extensions.swift */; };
+		45352D6E21C169FB009CCF5C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45352D6D21C169FB009CCF5C /* User.swift */; };
+		45352D7121C16A8E009CCF5C /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45352D7021C16A8E009CCF5C /* MessagesController.swift */; };
+		45352D7321C16AB8009CCF5C /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45352D7221C16AB8009CCF5C /* NewMessageController.swift */; };
+		45352D7521C16B14009CCF5C /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45352D7421C16B14009CCF5C /* LoginController+handlers.swift */; };
+		45352D7921C19C97009CCF5C /* CustomUITabBarControlle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45352D7821C19C97009CCF5C /* CustomUITabBarControlle.swift */; };
+		45352D7B21C19DC5009CCF5C /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45352D7A21C19DC5009CCF5C /* HomeController.swift */; };
+		45352D7D21C1A078009CCF5C /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45352D7C21C1A078009CCF5C /* MainNavigationController.swift */; };
+		45352D7F21C1A0F3009CCF5C /* UserDefaults-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45352D7E21C1A0F3009CCF5C /* UserDefaults-Extension.swift */; };
 		45AA15D421AB231300C0C536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA15D321AB231300C0C536 /* AppDelegate.swift */; };
-		45AA15D621AB231300C0C536 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA15D521AB231300C0C536 /* ViewController.swift */; };
 		45AA15DB21AB231E00C0C536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AA15DA21AB231E00C0C536 /* Assets.xcassets */; };
 		45AA15DE21AB231E00C0C536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45AA15DC21AB231E00C0C536 /* LaunchScreen.storyboard */; };
 		45AA15EA21AB347A00C0C536 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AA15E921AB347A00C0C536 /* LoginController.swift */; };
@@ -19,9 +27,17 @@
 
 /* Begin PBXFileReference section */
 		1088854F0F418482BB7CF3D8 /* Pods-Chatapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chatapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Chatapp/Pods-Chatapp.release.xcconfig"; sourceTree = "<group>"; };
+		45352D6A21C169C1009CCF5C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		45352D6D21C169FB009CCF5C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		45352D7021C16A8E009CCF5C /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
+		45352D7221C16AB8009CCF5C /* NewMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		45352D7421C16B14009CCF5C /* LoginController+handlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		45352D7821C19C97009CCF5C /* CustomUITabBarControlle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUITabBarControlle.swift; sourceTree = "<group>"; };
+		45352D7A21C19DC5009CCF5C /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		45352D7C21C1A078009CCF5C /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		45352D7E21C1A0F3009CCF5C /* UserDefaults-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults-Extension.swift"; sourceTree = "<group>"; };
 		45AA15D021AB231300C0C536 /* Chatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45AA15D321AB231300C0C536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		45AA15D521AB231300C0C536 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		45AA15DA21AB231E00C0C536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45AA15DD21AB231E00C0C536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45AA15DF21AB231E00C0C536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +77,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		45352D6921C16992009CCF5C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				45352D6A21C169C1009CCF5C /* Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		45352D6C21C169EB009CCF5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45352D6D21C169FB009CCF5C /* User.swift */,
+				45352D7E21C1A0F3009CCF5C /* UserDefaults-Extension.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		45352D6F21C16A3D009CCF5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				45AA15D321AB231300C0C536 /* AppDelegate.swift */,
+				45AA15E921AB347A00C0C536 /* LoginController.swift */,
+				45352D7021C16A8E009CCF5C /* MessagesController.swift */,
+				45352D7221C16AB8009CCF5C /* NewMessageController.swift */,
+				45352D7421C16B14009CCF5C /* LoginController+handlers.swift */,
+				45352D7821C19C97009CCF5C /* CustomUITabBarControlle.swift */,
+				45352D7A21C19DC5009CCF5C /* HomeController.swift */,
+				45352D7C21C1A078009CCF5C /* MainNavigationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		45AA15C721AB231300C0C536 = {
 			isa = PBXGroup;
 			children = (
@@ -82,9 +130,9 @@
 		45AA15D221AB231300C0C536 /* Chatapp */ = {
 			isa = PBXGroup;
 			children = (
-				45AA15D321AB231300C0C536 /* AppDelegate.swift */,
-				45AA15D521AB231300C0C536 /* ViewController.swift */,
-				45AA15E921AB347A00C0C536 /* LoginController.swift */,
+				45352D6C21C169EB009CCF5C /* Model */,
+				45352D6921C16992009CCF5C /* Helpers */,
+				45352D6F21C16A3D009CCF5C /* Controller */,
 				45AA15DA21AB231E00C0C536 /* Assets.xcassets */,
 				45AA15DC21AB231E00C0C536 /* LaunchScreen.storyboard */,
 				45AA15DF21AB231E00C0C536 /* Info.plist */,
@@ -220,8 +268,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45AA15D621AB231300C0C536 /* ViewController.swift in Sources */,
+				45352D7321C16AB8009CCF5C /* NewMessageController.swift in Sources */,
+				45352D6B21C169C1009CCF5C /* Extensions.swift in Sources */,
+				45352D7921C19C97009CCF5C /* CustomUITabBarControlle.swift in Sources */,
+				45352D7D21C1A078009CCF5C /* MainNavigationController.swift in Sources */,
+				45352D7521C16B14009CCF5C /* LoginController+handlers.swift in Sources */,
+				45352D7B21C19DC5009CCF5C /* HomeController.swift in Sources */,
 				45AA15EA21AB347A00C0C536 /* LoginController.swift in Sources */,
+				45352D7121C16A8E009CCF5C /* MessagesController.swift in Sources */,
+				45352D7F21C1A0F3009CCF5C /* UserDefaults-Extension.swift in Sources */,
+				45352D6E21C169FB009CCF5C /* User.swift in Sources */,
 				45AA15D421AB231300C0C536 /* AppDelegate.swift in Sources */,
 				45AA15EC21AB3FEF00C0C536 /* extensions.swift in Sources */,
 			);
@@ -363,6 +419,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2Q49DJCLF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Chatapp",
@@ -385,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V2Q49DJCLF;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Chatapp",
